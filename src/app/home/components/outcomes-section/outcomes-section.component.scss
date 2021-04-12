@@ -1,0 +1,24 @@
+@import "../../../theme/colors.scss";
+
+.outcomes-section {
+  background-color: $primaryColor;
+  padding: 4rem 0 ;
+ 
+  .left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    h2,
+    h4 {
+      color: white;
+    }
+    h4{
+      margin: 4rem 0 2rem;
+      width: 85%;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}

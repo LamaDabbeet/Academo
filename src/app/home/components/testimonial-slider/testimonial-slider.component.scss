@@ -1,0 +1,14 @@
+@import "../../../theme/colors.scss";
+
+.testimonial-slider{
+    padding:9rem 0 5rem;
+    img{
+        width: 100%;
+    }
+    .carousel-indicators {
+        justify-content: start;
+        li{
+            background-color: $academoRed;
+        }
+    }
+}

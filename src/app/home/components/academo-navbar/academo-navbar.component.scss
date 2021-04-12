@@ -1,0 +1,19 @@
+@import "../../../theme/colors.scss";
+
+.academo-navbar {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  a {
+    color: black;
+  }
+  .navbar-brand img {
+    width: 12rem;
+  }
+  .nav-item{
+    margin:0 1rem 
+  }
+  button{
+    margin-left: 3rem;
+
+  }
+}
