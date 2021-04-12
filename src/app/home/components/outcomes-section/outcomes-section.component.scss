@@ -1,0 +1,9 @@
+@import "../../../theme/colors.scss";
+
+.outcomes-section {
+  background-color: $primaryColor;
+  h2,
+  h4 {
+    color: white;
+  }
+}

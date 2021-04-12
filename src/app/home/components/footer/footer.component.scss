@@ -1,0 +1,52 @@
+@import "../../../theme/colors.scss";
+
+.academo-footer {
+  background-color: $lightBG;
+  a,
+  p,
+  li {
+    color: black;
+    font-size: 14px;
+  }
+  h2,
+  hr,
+  h5 {
+    color: black;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .top-footer {
+    img {
+      width: 50%;
+    }
+    @media screen and (max-width: 576px) {
+      .logo {
+        text-align: center;
+      }
+    }
+    .lists-wrapper {
+      display: flex;
+      justify-content: space-around;
+    }
+    .social-wrapper {
+      img{
+        width: 2rem;
+      }
+    }
+  }
+  .bottom-footer {
+    ul {
+      display: flex;
+    }
+
+    .copy-rights {
+      justify-content: flex-end;
+      @media screen and (max-width: 576px) {
+        justify-content: center;
+      }
+    }
+  }
+}

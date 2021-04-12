@@ -1,0 +1,15 @@
+@import "../../../theme/colors.scss";
+
+.header {
+  background-color: $primaryColor;
+  h1,
+  p {
+    color: white;
+  }
+  span {
+    color: $academoYellow;
+  }
+  .academo-image {
+    width: 100%;
+  }
+}
