@@ -1,14 +1,29 @@
 @import "../../../theme/colors.scss";
 
-.testimonial-slider{
-    padding:9rem 0 5rem;
-    img{
-        width: 100%;
+.testimonial-slider {
+  padding: 9rem 0 5rem;
+  img {
+    width: 118%;
+  }
+  .quote {
+    padding: 2rem 0;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  .carousel-inner {
+    overflow: visible;
+  }
+  .carousel-indicators {
+    margin-right: 0;
+    margin-left: 0;
+    left: unset;
+    right: unset;
+    justify-content: start;
+    bottom: -2rem;
+    li {
+      background-color: $academoRed;
+      width: 3rem;
     }
-    .carousel-indicators {
-        justify-content: start;
-        li{
-            background-color: $academoRed;
-        }
-    }
+  }
 }

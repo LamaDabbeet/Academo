@@ -1,0 +1,21 @@
+@import "../../../../app/theme/colors.scss";
+
+.trusted-by-companies {
+  background-color: $primaryColor;
+  text-align: center;
+  padding: 4rem 0;
+  h2 {
+    color: white;
+  }
+  .companies-list {
+    margin: 4rem 5rem 0;
+    .company-logo {
+      display: flex;
+      align-items: center;
+      img {
+        max-width: 75%;
+        max-height: 80%;
+      }
+    }
+  }
+}
