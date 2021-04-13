@@ -1,0 +1,22 @@
+@import "../../../../app/theme/colors.scss";
+
+.transform-life{
+  background-color: $primaryColor;
+  text-align: center;
+  padding: 4rem 0;
+  h2 {
+    color: white;
+  }
+  .box{
+    border-radius: 10px;
+    height: 8rem;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    h3{
+        color:$primaryColor;
+        font-size: 1.3rem;
+    }
+  }
+}

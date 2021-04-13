@@ -3,7 +3,9 @@
 .outcomes-section {
   background-color: $primaryColor;
   padding: 4rem 0 ;
- 
+  @media only screen and (max-width: 600px) {
+    button{margin:auto;    margin-bottom: 3rem;}
+   }
   .left-content{
     display: flex;
     flex-direction: column;
@@ -16,6 +18,11 @@
     h4{
       margin: 4rem 0 2rem;
       width: 85%;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+       }
     }
   }
   img{

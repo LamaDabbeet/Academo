@@ -1,0 +1,30 @@
+@import "../../../theme/colors.scss";
+
+.leading-companies{
+    padding:7rem 0;
+    .title{
+        display: flex;
+        h3{
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            text-align: right;
+        }
+        .red-line{
+            background: $academoRed;
+            height: 5rem;
+            width: 2px;
+            margin: 0 1rem;
+        }
+    }
+    .img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        img{
+            width: 100%;
+        }
+    }
+  
+  
+}

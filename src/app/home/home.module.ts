@@ -13,6 +13,8 @@ import { AcademoUseSectionComponent } from './components/academo-use-section/aca
 import { FooterComponent } from './components/footer/footer.component';
 import { TrustedByCompaniesComponent } from './components/trusted-by-companies/trusted-by-companies.component';
 import { TestimonialSliderComponent } from './components/testimonial-slider/testimonial-slider.component';
+import { TransformLifeComponent } from './components/transform-life/transform-life.component';
+import { LogoSliderComponent } from './components/logo-slider/logo-slider.component';
 
 
 @NgModule({
@@ -29,6 +31,8 @@ import { TestimonialSliderComponent } from './components/testimonial-slider/test
     FooterComponent,
     TrustedByCompaniesComponent,
     TestimonialSliderComponent,
+    TransformLifeComponent,
+    LogoSliderComponent
   ],
   imports: [
     CommonModule,

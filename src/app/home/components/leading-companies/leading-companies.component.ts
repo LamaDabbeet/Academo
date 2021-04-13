@@ -10,6 +10,13 @@ export class LeadingCompaniesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
 
+  }
+  
+
+  enter( event: any) {
+     
+    console.log(event.target.id);
+
+  }
 }

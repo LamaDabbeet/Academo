@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-@import "../../Academo/src/app/theme/colors.scss";
+@import "../../Academo-Master/src/app/theme/colors.scss";
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
 
 body {
   font-family: "Poppins", sans-serif;
@@ -8,6 +10,9 @@ body {
   }
   h3 {
     font-weight: 600;
+  }
+  @media only screen and (max-width: 600px) {
+    text-align: center;
   }
 }
 // Bootstrap Override
@@ -30,3 +35,5 @@ body {
     color: $primaryColor;
   }
 }
+
+

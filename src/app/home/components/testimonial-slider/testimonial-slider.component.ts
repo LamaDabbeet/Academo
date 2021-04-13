@@ -11,5 +11,5 @@ export class TestimonialSliderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+ 
 }

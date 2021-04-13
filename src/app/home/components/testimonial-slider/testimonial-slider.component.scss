@@ -2,14 +2,19 @@
 
 .testimonial-slider {
   padding: 9rem 0 5rem;
+  overflow: hidden;
   img {
     width: 118%;
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
   }
   .quote {
     padding: 2rem 0;
   }
   h4 {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
   .carousel-inner {
     overflow: visible;
@@ -21,6 +26,12 @@
     right: unset;
     justify-content: start;
     bottom: -2rem;
+    @media only screen and (max-width: 600px) {
+        left: 0;
+        right: 0;
+        justify-content: center;
+        bottom: -4rem;
+      }
     li {
       background-color: $academoRed;
       width: 3rem;

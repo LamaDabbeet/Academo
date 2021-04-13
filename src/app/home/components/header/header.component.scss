@@ -2,6 +2,12 @@
 
 .header {
   background-color: $primaryColor;
+  @media only screen and (max-width: 600px) {
+    button{margin:auto}
+   }
+  .container{
+    padding:8rem 0 ; 
+  }
   h1,
   p {
     color: white;
@@ -22,8 +28,11 @@
     p{
       margin: 2rem 0 ;
     }
+
   }
   .academo-image {
     width: 100%;
+    position: absolute;
+    top: -45%
   }
 }
